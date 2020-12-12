@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+#loader1, #loader2{
+    background-color: black;
+    cursor: wait;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+h1{
+    color: white;
+}
+#TitreLogo1{
+    display: none;
+}
+#img{
+    display: none;
+}
+#image2{
+    display: none;
+}

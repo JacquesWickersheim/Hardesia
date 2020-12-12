@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ titreSite }}{% endblock %}
+
+{% block body %}
+
+{#    Logo Initial    #}
+    <div class="loader2">
+        <span id="span1"><img id="img" src="{{ asset('images/logo_loader.png') }}" alt="Logo DLF" class="d-none position-absolute top-50 start-50 translate-middle"></span>
+    </div>
+
+{#  Logo N°2 après chargement   #}
+    <a href="{{ path('accueil') }}"><img id="image2" src="{{ asset('images/logo_loader_2.png') }}" alt="Logo DLF" class="btn position-absolute top-50 start-50 translate-middle"></a>
+{% endblock %}
