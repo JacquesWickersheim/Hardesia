@@ -14,7 +14,7 @@ class Accueil2Controller extends AbstractController
     public function index(): Response
     {
         return $this->render('accueil2/index.html.twig', [
-            'titreSite' => 'Dessanco Life France'
+            'titreSite' => 'Hardesia RP'
         ]);
     }
 }
